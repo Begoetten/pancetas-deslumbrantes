@@ -1,0 +1,81 @@
+/* Reset de estilos para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', serif;
+}
+
+body {
+    background-color: #f4e2c9; /* Tom de pergaminho */
+    color: #3b2f2f; /* Marrom escuro para texto */
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff8e7; /* Fundo levemente amarelado */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #c4a484;
+}
+
+h1, h2, h3 {
+    color: #5a3e2b; /* Tons terrosos para títulos */
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.fisico {
+    display: flex;
+    align-items: center;
+    background: #e0c9a8;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #c4a484;
+}
+
+.fisico img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid #5a3e2b;
+}
+
+.fisico .texto {
+    flex: 1;
+}
+
+.botao-expandir {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #5a3e2b;
+    margin-left: auto;
+}
+
+.texto-completo {
+    display: none;
+    margin-top: 10px;
+}
